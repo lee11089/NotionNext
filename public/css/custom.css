@@ -6,3 +6,7 @@
 .fa-info:before {
     content: "\f05a";
 }
+/* 隐藏 HEO 首页左侧 Hero 模块 */
+#theme-heo #bannerGroup {
+  display: none !important;
+}
