@@ -1,12 +1,14 @@
-/* 静态文件导入 自定义样式*/
+/* 静态文件导入 自定义样式 */
 
-#theme-fukasawa .sideLeft hr{
-    opacity: .04;
+#theme-fukasawa .sideLeft hr {
+  opacity: .04;
 }
+
 .fa-info:before {
-    content: "\f05a";
+  content: "\f05a";
 }
-/* 隐藏 HEO 首页左侧 Hero 模块 */
-#theme-heo #bannerGroup {
+
+/* 隐藏 HEO 首页整个 Hero 区域 */
+#theme-heo #hero-wrapper {
   display: none !important;
 }
